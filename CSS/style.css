@@ -1,0 +1,319 @@
+/* Estrutura principal */
+
+body{
+    margin: 0px;
+}
+
+.default{
+    width:1150px; 
+    height:100%; 
+    margin: 0 auto;
+}
+
+
+/* formatação de texto */
+
+.txtBranco{
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.txtContato{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+.txtMenu{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    left: -20px;
+}
+
+.txt_txtexperiencia{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: 800;
+    color:#1c3c77;
+    padding: 20 10 0 0;
+    text-align: center;
+}
+.txt_txtexperiencia2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:#000000;
+    
+}
+
+.txt_alinhamento{
+    width: 1150px;
+    height: 100px;
+    position: absolute;
+    margin-top:380px;
+    padding: 20 20 0 0 0;
+}
+
+.txt_alinhamento{
+    width: 1150px;
+    height: 100px;
+    position: absolute;
+    margin-top:380px;
+}
+.txt_alinhamento1{
+    position: absolute;
+    margin-top:380px;
+    padding: 20 10 80 0;
+}
+.txt_alinhamento2{
+    position: absolute;
+    margin-top:380px;
+    padding: 20 10 0 400;
+}
+.txt_alinhamento3{
+    position: absolute;
+    margin-top:380px;
+    padding: 20 10 0 650;
+}
+.txt_alinhamento4{
+    
+    position: absolute;
+    margin-top:380px;
+    padding: 20 10 0 950;
+}
+
+a:link{
+    text-decoration-line: none;
+    color:#999
+}
+
+/*a:hover{
+    text-decoration:none;   
+}*/
+
+a:active{   
+    color: #999;
+}
+
+a:hover{
+ color: #a8db51;
+ text-decoration: underline;
+ text-decoration-color: #28406D;   
+}
+
+a:visited{   
+    color: blueviolet;
+}
+/* configurações das listas */
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 5px;
+}
+
+ul.txt{
+    list-style-type: none;
+}
+li.txt{
+    display: inline;
+    padding: 80px;
+}
+
+
+
+
+
+/* Estruturas secundárias */
+
+.top{
+    width:100%; 
+    height:45px; 
+    background-color: #28406d; 
+    position: absolute;
+}
+
+.linha{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    margin-top: 130px;
+    background-color:rgba(0,0,0, 0.1); 
+}
+
+.endereco{
+    width:500px; 
+    height:45px; 
+    position:absolute; 
+    margin-left: 30px;
+    margin-top: 14px;
+}
+.email{
+    width:500px; 
+    height:45px; 
+    position: absolute;
+    margin-left: 565px;
+}
+.icones{
+    width:500px;
+    height:45px; 
+    position: absolute;
+    margin-left: 500px;
+}
+
+.logo{
+    width:180px;
+    height: 100px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+
+/* Elementos */
+
+.contato{
+    width:120px; 
+    height:100px; 
+    margin-left: 800px; 
+    margin-top: 70px; 
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.orcamento{
+    width:100px; 
+    height:50px;
+    position: absolute; 
+    margin-left:950px; 
+    margin-top: 90px;
+    text-align: center;
+}
+
+.menu{
+    width:550px; 
+    height:50px; 
+    margin-top: 125px;
+    position:absolute; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: yellowgreen;
+}
+
+.pesquisa{
+    width:150px; 
+    height:30px; 
+    margin-left:960px;
+    margin-top: 120px;
+    position: absolute; 
+}
+
+.container_carrosel{
+    width:100%; 
+    height:665px; 
+    position: absolute;
+    background-color: crimson;
+    margin-top:200px;
+}
+.carrosel{
+    width:1150px; 
+    height:665px; 
+    position: absolute;
+    margin-top: 200px;
+}
+
+.imagens{
+    width: 1150px;
+    height: 300px;
+    position: absolute;
+    margin-top: 845px;
+}
+
+span.material-icons{
+    font-size: 18px;
+    position:absolute;
+    right: 10px;
+    top:22px;
+    width:200;
+    height:35
+}
+
+/* Botoes */
+
+
+.botao_Orcamento:hover { 
+    width:180px; 
+    height:100px; 
+    position:absolute; 
+    background: #666 ;
+    color:#999;
+}
+
+
+
+
+
+/* Principais Estruturas */
+
+.experiencia{
+    width:100%;
+    height: 1055px;
+    background-color: #f3f3f3;
+    position: absolute;
+    margin-top: 1330px;
+}
+.experiencia_interno{
+    width:1150px;
+    height: 610px;
+    position: absolute;
+    margin-top: 1330px;
+}
+.experiencia_interno2{
+    width:1150px;
+    height: 345px;
+    position: absolute;
+    margin-top: 710px;
+}
+
+.blog{
+    width:1150px;
+    height: 800px;
+    position: absolute;
+    margin-top: 1055px;
+}
+
+.faleconosco{
+    width:100%;
+    height: 800px;
+    position: absolute;
+    background-color: #000000;
+    margin-top: 3185px;
+}
+.faleconosco_interno{
+    width:1150px;
+    height: 800px;
+    position: absolute;
+    margin-top: 1855px;
+}
+
+.menu_footer{
+    width:100%;
+    height: 300px;
+    position: absolute;
+    background-color: #28406d;
+    margin-top: 3985px;
+}
+.cotacao{
+    width:100%;
+    height: 100px;
+    background-color: #a8db51;
+    position: absolute;
+    margin-top: 610px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;	
+}
+
+
+
+
